@@ -10,9 +10,16 @@ queryAll('.foo').forEach(function (el) {
   console.log(el);
 });
 
-// element.querySelectorAll('.foo');
+// parent.querySelectorAll('.foo');
 var parent = document.querySelector('.parent');
 queryAll('.foo', parent).forEach(function (el) {
   console.log(el);
 });
+```
+
+## Install
+With [npm](https://npmjs.org) do
+
+```bash
+$ npm install queryall
 ```

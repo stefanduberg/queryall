@@ -1,5 +1,5 @@
 function queryAll(selector, parent) {
-  parent = parent || document;
+  parent = parent || window.document;
   return Array.prototype.slice.call(parent.querySelectorAll(selector));
 }
 
