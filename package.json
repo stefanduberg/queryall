@@ -1,0 +1,16 @@
+{
+  "name": "queryall",
+  "version": "0.0.0",
+  "description": "Convert querySelectorAll's NodeList into an array.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanduberg/queryall.git"
+  },
+  "author": "Stefan Duberg <stefanduberg@me.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/stefanduberg/queryall/issues"
+  },
+  "homepage": "https://github.com/stefanduberg/queryall"
+}
